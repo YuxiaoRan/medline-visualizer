@@ -1,3 +1,5 @@
+# credit to joewandy/hlda
+
 import csv
 from math import log
 import sys

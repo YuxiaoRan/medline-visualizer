@@ -33,7 +33,7 @@ all_docs = []
 vocab = set()
 
 stemmer = PorterStemmer()
-for filename in glob.glob('../medline17n0010/*.txt'):
+for filename in glob.glob('../medline17n0010_s/*.txt'):
     with open(filename) as f:
         try:
 
